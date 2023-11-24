@@ -189,11 +189,29 @@ main{
     background-color: white;
 
 }
-.container{
-    display: flex;
+
+.third-section h2{
+    margin-top: 150px;
+    margin-bottom: 50px;
 }
 
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    gap: 50px;
+}
+
+.container div{
+    flex-basis: calc(100% / 3 - 50px);
+    max-width: calc(100% / 3 - 50px);
+    text-align: justify;
+
+    margin-bottom: 20px;
+}
 .container img{
-    display: block;
+    width: 100%;
 }
 
