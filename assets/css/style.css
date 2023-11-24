@@ -41,7 +41,7 @@ header div ul{
 }
 
 .jumbo{
-    background-color: lightblue;
+    background-color: #B4D0E7;
     height: 800px;
 }
 
@@ -55,6 +55,11 @@ header div ul{
     margin: 0 auto;
 }
 
+.jumbo-content{
+    display: flex;
+    line-height: 180%;
+}
+
 .jumbo h1{
     font-size: 5em;
     margin-block: 100px;
@@ -64,11 +69,45 @@ header div ul{
     list-style-type: none;
 }
 
-.jumbo-content{
-    display: flex;
+.jumbo-content button{
+    width: 300px;
+    margin-block: 30px;
+    padding: 20px;
+
+    border-color: #B4D0E7;
+    background-color: #0061FF;
+    color: white;
+}
+
+.jumbo-content div ul li{
+    margin-block: 20px; 
+}
+
+.jumbo-content a i{
+    font-size: 50px;
+    color: black;
 }
 
 .jumbo-content figure img{
     width: 1000px;
+}
+
+main{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.first-section .button-area{
+    margin-block: 50px;
+}
+
+.first-section .button-area label input{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.business-plans{
+    display: flex;
 }
 
