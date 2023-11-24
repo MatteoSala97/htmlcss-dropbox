@@ -2,5 +2,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    border: 1px solid black;
 }
-  
+
+body{
+    height: 10000px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+
+    background-color: lightcoral;
+}
+
+header div ul{
+    display: flex;
+    justify-content: space-around;
+
+    list-style-type: none;
+    
+    padding: 20px;
+    gap: 20px;
+}
+
+
