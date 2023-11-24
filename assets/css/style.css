@@ -189,3 +189,11 @@ main{
     background-color: white;
 
 }
+.container{
+    display: flex;
+}
+
+.container img{
+    display: block;
+}
+
