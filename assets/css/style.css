@@ -19,6 +19,16 @@ li{
     list-style-type: none;
 }
 
+a{
+    text-decoration: none;
+}
+
+button{
+    border-color: #B4D0E7;
+    background-color: #0061FF;
+    color: white;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -40,6 +50,10 @@ header div ul{
     
     padding-inline: 20px;
     gap: 20px;
+}
+
+header div ul li button{
+    width: 100px;
 }
 
 .jumbo{
@@ -71,10 +85,6 @@ header div ul{
     width: 300px;
     margin-block: 30px;
     padding: 20px;
-
-    border-color: #B4D0E7;
-    background-color: #0061FF;
-    color: white;
 }
 
 .jumbo-content div ul li{
@@ -118,14 +128,19 @@ main{
     padding: 5px;
 }
 
+.business-plans{
+    margin-bottom: 100px;
+}
+
 .professional,
 .advanced,
 .enterprise {
-    border: 1px solid black;
+    border: 1px solid #F3F3F4;
 }
 
 .tag{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #F3F3F4;
+    padding: 5px;
 }
 
 .cta{
@@ -133,3 +148,44 @@ main{
     flex-direction: column;
 }
 
+.enterprise-2 *{
+    padding: 10px;
+}
+
+.enterprise-2{
+    border: 1px solid #F3F3F4;
+}
+
+.enterprise-2 .tag{
+    padding: 10px;
+}
+
+.enterprise-2 .sales{
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-section{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.second-section img{
+    width: 600px;
+}
+
+.partner-text h2, 
+.partner-text p, 
+.partner-text a{
+    margin-block: 50px;
+}
+
+.partner-text a{
+    
+    padding: 20px;
+    border: 1px solid black;
+    background-color: white;
+
+}
