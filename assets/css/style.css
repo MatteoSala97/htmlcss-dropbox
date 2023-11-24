@@ -135,11 +135,11 @@ main{
 .professional,
 .advanced,
 .enterprise {
-    border: 1px solid #F3F3F4;
+    border: 1px solid #D8D8DB;
 }
 
 .tag{
-    border-bottom: 1px solid #F3F3F4;
+    border-bottom: 1px solid #D8D8DB;
     padding: 5px;
 }
 
@@ -153,7 +153,7 @@ main{
 }
 
 .enterprise-2{
-    border: 1px solid #F3F3F4;
+    border: 1px solid #D8D8DB;
 }
 
 .enterprise-2 .tag{
