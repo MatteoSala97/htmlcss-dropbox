@@ -19,9 +19,19 @@ li{
     list-style-type: none;
 }
 
+ul {
+    padding: 0;
+    list-style: none;
+}
+  
+ul li {
+    padding: 12px 0; 
+}
+
 a{
     text-decoration: none;
 }
+
 
 button{
     border-color: #B4D0E7;
@@ -115,37 +125,60 @@ main{
     margin-bottom: 30px;
 }
 
-.business-plans{
+
+
+
+.card-section {
     display: flex;
+    justify-content: center;
     gap: 50px;
-}
-
-.tag{
-    text-align: center;
-}
-
-.business-plans *{
-    padding: 5px;
-}
-
-.business-plans{
-    margin-bottom: 100px;
-}
-
-.professional,
-.advanced,
-.enterprise {
+    margin-top: 50px;
+  }
+  
+  .card {
     border: 1px solid #D8D8DB;
-}
+    padding: 20px;
+    width: 100%; 
+  }
+  
+  .card-title {
+    border-bottom: 1px solid #D8D8DB;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .big-blue-button {
+    background-color:#0061FF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  
+  .card-link {
+    display: block;
+    text-decoration: none;
+    color: blue;
+    margin-bottom: 10px;
+  }
+  
+  .small-list-title {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .small-list {
+    padding-left: 20px;
+  }
+
+
+
+/*  to be checked  */
 
 .tag{
     border-bottom: 1px solid #D8D8DB;
     padding: 5px;
-}
-
-.cta{
-    display: flex;
-    flex-direction: column;
 }
 
 .enterprise-2 *{
@@ -164,6 +197,10 @@ main{
     display: flex;
     justify-content: space-between;
 }
+
+/*  until here */
+
+
 
 .second-section{
     margin-top: 200px;
