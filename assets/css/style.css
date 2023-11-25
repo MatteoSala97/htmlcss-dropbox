@@ -348,7 +348,7 @@ main{
 }
 
 .mid-text{
-    max-height: 350px;
+    max-height: 300px;
     overflow-y: auto;
 }
 
@@ -370,8 +370,8 @@ main{
 
 .dropbox-business-cont h2{
     font-size: 30px;
+    color: #61082B;
 }
-
 
 .white-button{
     color: black;
@@ -380,3 +380,38 @@ main{
     padding-inline: 30px;
     padding-block: 10px;
 }
+
+.faq-title{
+
+    font-size: 30px;
+    margin-block: 80px;
+}
+
+.faq-container {
+    width: 60%;
+    margin: 50px auto;
+    font-weight: bold;
+}
+.faq-container hr{
+    margin-block: 50px;
+}
+.faq-item {
+    margin-bottom: 10px;
+}
+
+.question {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.answer {
+    display: none;
+    padding: 10px;
+}
+
+.question:hover + .answer {
+    display: block;
+}
+  
