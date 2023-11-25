@@ -267,7 +267,7 @@ main{
 /* fifth section */
 
 .big-cont{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     
     display: flex;
     justify-content: space-between;
@@ -352,3 +352,31 @@ main{
     overflow-y: auto;
 }
 
+.dropbox-business-cont{
+
+    /* border: 1px solid red; */
+    background-color: #B4D0E7;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+
+
+    width: 100%;
+    height: 400px;
+
+    margin-block: 100px;
+}
+
+.dropbox-business-cont h2{
+    font-size: 30px;
+}
+
+
+.white-button{
+    color: black;
+    background-color: white ;
+    border: 0;
+    padding-inline: 30px;
+    padding-block: 10px;
+}
