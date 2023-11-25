@@ -264,3 +264,100 @@ main{
     font-size: 20px;
 }
 
+/*  attempt */
+
+.big-cont{
+    
+    
+    display: flex;
+    justify-content: space-between;
+
+    height: 400px;
+    
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 300px;
+    height: 200px;
+
+    border: 1px solid #ccc;
+    position: relative;
+    
+  }
+.cont img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    
+}
+
+
+
+.square1, .square2, .square3, .square4{
+    width: calc(100% / 2);
+    background-color: blue;
+    position: absolute;
+    border: 1px solid white;
+}
+
+.square1{
+    top: 0;
+    left: 0;
+}
+
+.square2{
+    top: 0;
+    right: 0;
+}
+
+.square3{
+    bottom: 0;
+    right: 0;
+}
+
+.square4{
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .squares{
+    width: 100%;
+    display: flex;
+    border: 1px solid lime;
+}
+
+.left-square{
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid blue;
+}
+
+.middle-square{
+    border: 5px solid blue;
+}
+
+.right-square{
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid blue;
+}
+
+.fifth-section img{
+    width: 300px;
+    border: 1px solid red;
+} */
