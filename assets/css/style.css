@@ -8,6 +8,7 @@
 
 html{
     font-family: sans-serif;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -15,13 +16,9 @@ body{
     font-size: large;
 }
 
-li{
-    list-style-type: none;
-}
-
 ul {
     padding: 0;
-    list-style: none;
+    list-style-type: none
 }
   
 ul li {
@@ -125,87 +122,87 @@ main{
     margin-bottom: 30px;
 }
 
-
-
-
 .card-section {
     display: flex;
     justify-content: center;
     gap: 50px;
     margin-top: 50px;
-  }
-  
-  .card {
+}
+
+.card-section hr{
+    width: 20%;
+    margin-block: 50px;
+}
+
+.card {
     border: 1px solid #D8D8DB;
     padding: 20px;
     width: 100%; 
-  }
+
+    margin-bottom: 50px;
+}
   
-  .card-title {
+.card-title {
     border-bottom: 1px solid #D8D8DB;
     margin-bottom: 10px;
     padding-bottom: 10px;
     font-weight: bold;
-  }
+    text-align: center;
+}
   
-  .big-blue-button {
+.big-blue-button {
     background-color:#0061FF;
     color: white;
     padding: 10px 20px;
     border: none;
     margin-bottom: 10px;
-  }
+    width: 100%;
+}
+
+.small-blue-button{
+    background-color: #0061FF;
+    color: white;
+    padding: 10px 20px;
+    margin-block: 20px;
+}
   
-  .card-link {
-    display: block;
+.card-link {
     text-decoration: none;
     color: blue;
     margin-bottom: 10px;
-  }
+}
   
-  .small-list-title {
+.small-list-title {
     margin-top: 20px;
     font-weight: bold;
-  }
+}
   
-  .small-list {
+.small-list {
     padding-left: 20px;
-  }
-
-
-
-/*  to be checked  */
-
-.tag{
-    border-bottom: 1px solid #D8D8DB;
-    padding: 5px;
 }
 
-.enterprise-2 *{
-    padding: 10px;
+.fa-check{
+    color:#0061FF;
+    font-size: 20px;
 }
 
-.enterprise-2{
-    border: 1px solid #D8D8DB;
-}
-
-.enterprise-2 .tag{
-    padding: 10px;
-}
-
-.enterprise-2 .sales{
+.card .sales{
     display: flex;
     justify-content: space-between;
 }
 
-/*  until here */
+.card h4{
+    margin-bottom: 40px;
+}
 
-
+.card p{
+    width: 60%;
+}
 
 .second-section{
     margin-top: 200px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 50px;
 }
 
@@ -220,16 +217,16 @@ main{
 }
 
 .partner-text a{
-    
     padding: 20px;
     border: 1px solid black;
     background-color: white;
-
 }
 
 .third-section h2{
     margin-top: 150px;
     margin-bottom: 50px;
+    font-size: 50px;
+    text-align: center;
 }
 
 
@@ -250,5 +247,20 @@ main{
 }
 .container img{
     width: 100%;
+}
+
+.fourth-section{
+    margin-top: 300px;
+    margin-bottom: 200px;
+    font-size: 30px;
+}
+
+.fourth-section h2{
+    margin-bottom: 100px;
+}
+
+.fourth-section a{
+    text-decoration: underline;
+    font-size: 20px;
 }
 
