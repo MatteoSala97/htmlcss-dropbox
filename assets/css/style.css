@@ -264,92 +264,91 @@ main{
     font-size: 20px;
 }
 
-/*  attempt */
+/* fifth section */
 
 .big-cont{
-    
+    border: 1px solid black;
     
     display: flex;
     justify-content: space-between;
-
-    height: 400px;
+    width: 100%;
+    height: 800px;
+    
     
 }
 
-.cont {
-    position: relative;
-    width: 300px;
-    height: 300px; 
-    border: 1px solid #ccc;
-    overflow: hidden;
+.cont{
+    /* border: 1px solid #ccc; */
 
     display: flex;
     flex-wrap: wrap;
-
+    width: calc(100%/3);
     z-index: -1;
-  }
+
+    padding-inline: 20px;
+}
+
+.mid{
+    width: 20%;
+}
   
-  .cont img {
-    position: absolute;
-    width: 50%; 
-    height: 50%;
-    border: 1px solid red;
-  }
-  
-  .cont img:nth-child(1) {
-    top: 0;
-    left: 0;
-  }
-  
-  .cont img:nth-child(2) {
-    top: 0;
-    right: 0;
-  }
-  
-  .cont img:nth-child(3) {
-    bottom: 0;
-    left: 0;
-  }
-  
-  .cont img:nth-child(4) {
-    bottom: 0;
-    right: 0;
-  }
-  
+.square{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
 
-
-
-
-
-
-
-
-
-
-
-/* .squares{
-    width: 100%;
     display: flex;
-    border: 1px solid lime;
+    align-items: center;
 }
 
-.left-square{
-    display: flex;
-    flex-wrap: wrap;
-    border: 5px solid blue;
+.square img{
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
 }
 
-.middle-square{
-    border: 5px solid blue;
+#design-it-logo{
+    background-color: #A2D39B;
+    border: 10px solid #d1e9cd;
 }
 
-.right-square{
-    display: flex;
-    flex-wrap: wrap;
-    border: 5px solid blue;
+#arizona-university-logo{
+    background-color: #61082B;
 }
 
-.fifth-section img{
-    width: 300px;
-    border: 1px solid red;
-} */
+#florida-university-logo{
+    background-color:#0093ce;
+}
+
+#topps-logo{
+    background-color:#ff1c1c;
+}
+
+#world-bycicle-logo{
+    background-color:#d5001f;
+}
+
+#hearst-logo{
+    background-color:#b4d0e7;
+}
+
+#planet-logo{
+    background-color:#0d2481;
+}
+
+#clear-channel-logo{
+    background-color:#ffd830;
+}
+
+.mid hr{
+    width: 80px;
+}
+
+.mid *{
+    margin-block: 50px;
+}
+
+.mid-text{
+    max-height: 350px;
+    overflow-y: auto;
+}
+
