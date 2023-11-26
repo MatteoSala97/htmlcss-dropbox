@@ -62,11 +62,24 @@ header div ul .hover-border:hover{
     border-bottom: 1px solid lightgrey;
 }
 
-header div ul li button{
+/* header div ul li button{
     width: 100px;
     border: 0;
     padding: 10px;
+} */
+
+.spin-me:hover{
+    animation: rotation 0.5s linear;
 }
+
+@keyframes rotation {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
 
 .jumbo{
     background-color: #B4D0E7;
@@ -171,6 +184,7 @@ main{
     color: white;
     padding: 10px 20px;
     margin-block: 20px;
+    border: 0;
 }
   
 .card-link {
