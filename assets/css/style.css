@@ -20,7 +20,7 @@ ul {
     list-style-type: none
 }
   
-ul li {
+ul li{
     padding: 12px 0;
 }
 
@@ -37,15 +37,11 @@ button{
 header {
     display: flex;
     justify-content: space-between;
-
     position: fixed;
     top: 0;
-
     width: 100%;
     height: 100px;
-
     align-items: center;
-
     background-color: white;
 }
 
@@ -53,33 +49,17 @@ header div ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
     padding-inline: 20px;
     gap: 40px;
 }
 
-header div ul .hover-border:hover{
+.hover-border:hover{
     border-bottom: 1px solid lightgrey;
 }
 
-/* header div ul li button{
-    width: 100px;
-    border: 0;
-    padding: 10px;
-} */
-
-.spin-me:hover{
-    animation: rotation 0.5s linear;
+.small-blue-button:hover, .big-blue-button:hover{
+    opacity: 0.7;
 }
-
-@keyframes rotation {
-    from {
-      transform: rotate(360deg);
-    }
-    to {
-      transform: rotate(0deg);
-    }
-  }
 
 .jumbo{
     background-color: #B4D0E7;
@@ -158,7 +138,6 @@ main{
     border: 1px solid #D8D8DB;
     padding: 20px;
     width: 100%; 
-
     margin-bottom: 50px;
 }
   
@@ -251,12 +230,10 @@ main{
     text-align: center;
 }
 
-
 .container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
     gap: 50px;
 }
 
@@ -264,7 +241,6 @@ main{
     flex-basis: calc(100% / 3 - 50px);
     max-width: calc(100% / 3 - 50px);
     text-align: justify;
-
     margin-bottom: 20px;
 }
 .container img{
@@ -289,24 +265,17 @@ main{
 /* fifth section */
 
 .big-cont{
-    /* border: 1px solid black; */
-    
     display: flex;
     justify-content: space-between;
     width: 100%;
     height: 800px;
-    
-    
 }
 
 .cont{
-    /* border: 1px solid #ccc; */
-
     display: flex;
     flex-wrap: wrap;
     width: calc(100%/3);
     z-index: -1;
-
     padding-inline: 20px;
 }
 
@@ -317,7 +286,6 @@ main{
 .square{
     width: calc(100% / 2);
     height: calc(100% / 2);
-
     display: flex;
     align-items: center;
 }
@@ -377,14 +345,10 @@ main{
 .dropbox-business-cont{
     background-color: #B4D0E7;
     display: flex;
-
     justify-content: space-around;
     align-items: center;
-
-
     width: 100%;
     height: 400px;
-
     margin-block: 100px;
 }
 
@@ -407,7 +371,7 @@ main{
     margin-block: 80px;
 }
 
-.faq-container {
+.faq-container{
     width: 60%;
     margin: 50px auto;
     font-weight: bold;
@@ -415,18 +379,18 @@ main{
 .faq-container hr{
     margin-block: 50px;
 }
-.faq-item {
+.faq-item{
     margin-bottom: 10px;
 }
 
-.question {
+.question{
     padding: 10px;
     display: flex;
     justify-content: space-between;
     cursor: pointer;
 }
 
-.answer {
+.answer{
     display: none;
     padding: 10px;
 }
@@ -459,8 +423,6 @@ footer .footer-container{
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
-    
-
 }
 
 footer hr{
@@ -484,7 +446,6 @@ footer .language{
 
 .fa-earth-europe{
     margin-inline: 10px;
-    
 }
 
 .language-selector img{
@@ -496,7 +457,6 @@ footer .language{
     cursor: pointer;
     display: flex;
     align-items: center;
-
     margin-left: 20px;
 }
 
