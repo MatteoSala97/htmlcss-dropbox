@@ -266,21 +266,37 @@ main{
 
 .big-cont{
     display: flex;
-    justify-content: space-between;
     width: 100%;
-    height: 800px;
 }
 
-.cont{
+.cont, .mid{
     display: flex;
     flex-wrap: wrap;
     width: calc(100%/3);
-    z-index: -1;
-    padding-inline: 20px;
+    height: calc(100vw / 3);
+    /* aspect-ratio: 1; */
+
+    /* z-index: -1; */
+    /* padding-inline: 20px; */
 }
 
-.mid{
-    width: 20%;
+.mid-cont{
+
+    width: calc(100%/3);
+    
+    background-color: lightgrey;
+    /* display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-around; */
+
+    padding: 20px;
+}
+
+.mid-text{
+    overflow: auto;
+    max-height: 200px;
+    margin-block: 30px;
 }
   
 .square{
@@ -288,12 +304,14 @@ main{
     height: calc(100% / 2);
     display: flex;
     align-items: center;
+
+    aspect-ratio: 1;
 }
 
 .square img{
-    width: 200px;
-    height: 100px;
+    width: 150px;
     margin: 0 auto;
+    filter: invert(1);
 }
 
 #design-it-logo{
@@ -329,17 +347,13 @@ main{
     background-color:#ffd830;
 }
 
-.mid hr{
+.mid-cont img{
+    height: 80px;
+}
+
+.mid-cont hr{
     width: 80px;
-}
-
-.mid *{
-    margin-block: 50px;
-}
-
-.mid-text{
-    max-height: 300px;
-    overflow-y: auto;
+    margin-block: 20px;
 }
 
 .dropbox-business-cont{
@@ -366,7 +380,6 @@ main{
 }
 
 .faq-title{
-
     font-size: 30px;
     margin-block: 80px;
 }
