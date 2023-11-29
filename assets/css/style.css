@@ -28,6 +28,10 @@ a{
     text-decoration: none;
 }
 
+header a{
+    color: black;
+}
+
 button{
     border-color: #B4D0E7;
     background-color: #0061FF;
@@ -289,7 +293,7 @@ main{
     align-items: flex-start;
     flex-direction: column;
     justify-content: space-around; */
-
+    
     padding: 20px;
 }
 
@@ -347,6 +351,10 @@ main{
     background-color:#ffd830;
 }
 
+.mid-cont :first-child{
+    text-align: center;
+}
+
 .mid-cont img{
     height: 80px;
 }
@@ -377,6 +385,9 @@ main{
     border: 0;
     padding-inline: 30px;
     padding-block: 10px;
+
+    font-size: 20px;
+    cursor: pointer;
 }
 
 .faq-title{
